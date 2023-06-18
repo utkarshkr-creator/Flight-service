@@ -5,5 +5,7 @@ const CityRepository=require("./city-repository")
 module.exports={
     AirplaneRepository,
     CrudRepository,
-    CityRepository
+    CityRepository,
+    AirportRepository: require('./airport-respository'),
+    FlightRepository: require('./flight-repository')
 }
